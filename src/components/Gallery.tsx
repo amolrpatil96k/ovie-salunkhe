@@ -27,7 +27,7 @@ const itemVariants: Variants = {
 
 export function Gallery() {
   return (
-    <section className="relative py-32 bg-background overflow-hidden">
+    <section id="gallery-section" className="relative py-32 bg-background overflow-hidden">
       <div className="px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto w-full mb-12">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

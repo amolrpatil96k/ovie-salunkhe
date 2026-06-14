@@ -21,7 +21,7 @@ export function BentoGrid() {
   };
 
   return (
-    <section className="w-full px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto py-20 z-20 relative">
+    <section id="stats-section" className="w-full px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto py-20 z-20 relative">
       <div className="mb-16 text-center max-w-3xl mx-auto">
         <motion.h2 
           initial={{ opacity: 0, y: 20 }}
@@ -75,8 +75,8 @@ export function BentoGrid() {
             <Target className="text-[var(--color-neon-green)] w-6 h-6" />
           </div>
           <div className="mt-6">
-            <h3 className="text-4xl font-black mb-1 text-foreground"><Counter value={85} suffix="%" /></h3>
-            <p className="text-sm text-gray-500 dark:text-gray-400 font-medium">Strike Rate Accuracy</p>
+            <h3 className="text-4xl font-black mb-1 text-foreground"><Counter value={48} suffix=".5" /></h3>
+            <p className="text-sm text-gray-500 dark:text-gray-400 font-medium">Batting Average</p>
           </div>
         </motion.div>
 
@@ -86,8 +86,8 @@ export function BentoGrid() {
             <Activity className="text-blue-500 w-6 h-6" />
           </div>
           <div className="mt-6">
-            <h3 className="text-4xl font-black mb-1 text-foreground"><Counter value={18} /></h3>
-            <p className="text-sm text-gray-500 dark:text-gray-400 font-medium">Yo-Yo Test Score</p>
+            <h3 className="text-4xl font-black mb-1 text-foreground"><Counter value={128} suffix="*" /></h3>
+            <p className="text-sm text-gray-500 dark:text-gray-400 font-medium">Highest Score</p>
           </div>
         </motion.div>
 

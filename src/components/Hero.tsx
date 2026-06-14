@@ -12,7 +12,7 @@ export function Hero() {
     }
   };
   return (
-    <section className="relative w-full h-screen flex flex-col items-center justify-center overflow-hidden">
+    <section id="hero" className="relative w-full h-screen flex flex-col items-center justify-center overflow-hidden">
       {/* Background Video */}
       <div className="absolute inset-0 z-0">
         <video
@@ -58,12 +58,14 @@ export function Hero() {
         </div>
 
         <motion.p 
-          initial={{ opacity: 0, scale: 0.9 }}
-          animate={{ opacity: 1, scale: 1 }}
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.8, ease: "easeOut" }}
-          className="mt-6 text-xl md:text-3xl font-medium tracking-wide text-gray-300 drop-shadow-md"
+          className="mt-6 text-xl md:text-2xl font-bold tracking-widest text-[var(--color-brand-orange)] uppercase flex items-center justify-center gap-4 drop-shadow-md"
         >
-          Passion. Precision. Power.
+          <span>Top-Order Batter</span>
+          <span className="w-2 h-2 rounded-full bg-[var(--color-neon-green)]"></span>
+          <span>MCA West Zone U-17</span>
         </motion.p>
 
         <motion.div
