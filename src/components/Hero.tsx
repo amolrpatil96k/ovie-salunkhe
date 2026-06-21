@@ -65,7 +65,7 @@ export function Hero() {
         >
           <span>Top-Order Batter</span>
           <span className="w-2 h-2 rounded-full bg-[var(--color-neon-green)]"></span>
-          <span>MCA West Zone U-17</span>
+          <span>MCA U 17</span>
         </motion.p>
 
         <motion.div

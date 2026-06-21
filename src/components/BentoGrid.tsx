@@ -69,28 +69,6 @@ export function BentoGrid() {
           </div>
         </motion.div>
 
-        {/* Small Stat 1 */}
-        <motion.div variants={itemVariants} className="glass-panel glass-panel-hover rounded-[2rem] p-6 relative overflow-hidden group flex flex-col transition-transform hover:-translate-y-2 min-h-[250px] md:min-h-0">
-          <div className="w-12 h-12 bg-[var(--color-neon-green)]/10 rounded-xl flex items-center justify-center mb-auto">
-            <Target className="text-[var(--color-neon-green)] w-6 h-6" />
-          </div>
-          <div className="mt-6">
-            <h3 className="text-4xl font-black mb-1 text-foreground"><Counter value={48} suffix=".5" /></h3>
-            <p className="text-sm text-gray-500 dark:text-gray-400 font-medium">Batting Average</p>
-          </div>
-        </motion.div>
-
-        {/* Small Stat 2 */}
-        <motion.div variants={itemVariants} className="glass-panel glass-panel-hover rounded-[2rem] p-6 relative overflow-hidden group flex flex-col transition-transform hover:-translate-y-2 min-h-[250px] md:min-h-0">
-          <div className="w-12 h-12 bg-blue-500/10 rounded-xl flex items-center justify-center mb-auto">
-            <Activity className="text-blue-500 w-6 h-6" />
-          </div>
-          <div className="mt-6">
-            <h3 className="text-4xl font-black mb-1 text-foreground"><Counter value={128} suffix="*" /></h3>
-            <p className="text-sm text-gray-500 dark:text-gray-400 font-medium">Highest Score</p>
-          </div>
-        </motion.div>
-
         {/* Video Panel */}
         <motion.div variants={itemVariants} className="glass-panel glass-panel-hover rounded-[2rem] p-6 sm:p-8 relative overflow-hidden group md:col-span-2 md:row-span-2 flex flex-col justify-end transition-transform hover:-translate-y-2 min-h-[250px] md:min-h-0">
           <div className="absolute inset-0 z-0">
