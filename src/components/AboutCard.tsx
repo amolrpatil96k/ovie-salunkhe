@@ -94,4 +94,4 @@ export function AboutCard() {
       </motion.div>
     </section>
   );
-}
+} 
